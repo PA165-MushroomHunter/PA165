@@ -1,15 +1,15 @@
 package cz.fi.muni.carshop.services;
 
-import java.awt.Color;
+import cz.fi.muni.carshop.CarShopStorage;
+import cz.fi.muni.carshop.entities.Car;
+import cz.fi.muni.carshop.enums.CarTypes;
+
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
-import cz.fi.muni.carshop.CarShopStorage;
-import cz.fi.muni.carshop.entities.Car;
-import cz.fi.muni.carshop.enums.CarTypes;
 
 public class CarShopStorageServiceImpl implements CarShopStorageService {
 
